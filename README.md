@@ -36,7 +36,7 @@ To keep the academic exercise within its controlled scope, the demonstration was
 
 ## Methodology and Use of AI
 
-GitHub Copilot was used as an AI copilot to help organize the repository, standardize the writing, and accelerate the drafting and editing of documentation. The student acted as the AI orchestrator: defining the academic scope, supplying the lab context, reviewing suggestions, and deciding what to include. This human oversight kept the material aligned with the exercise and its ethical boundaries.
+GitHub Copilot was used as an AI copilot to optimize the time spent creating this repository, standardize the documentation, and help organize and refine its structure. The student acted as the AI orchestrator: defining the academic scope, supplying the lab context, reviewing suggestions, and deciding what to include. This human oversight kept the material aligned with the exercise and its ethical boundaries.
 
 AI assistance supported the documentation process; it did not perform the lab exercise or validate its results. Technical claims and screenshots must be checked against the student's actual observations, and no generated text should be treated as evidence of testing.
 

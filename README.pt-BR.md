@@ -11,6 +11,10 @@ Este projeto é um relatório técnico acadêmico sobre um exercício de laborat
 
 O fluxo de trabalho é apresentado em nível conceitual e restrito à documentação e ao relatório. O repositório não inclui páginas de phishing prontas, payloads ou automação de ataque.
 
+## Metodologia e uso de IA
+
+O GitHub Copilot foi utilizado como copiloto para otimizar o tempo de criação deste repositório, padronizar a escrita e auxiliar na organização e revisão da documentação. O estudante atuou como orquestrador da IA: definiu o escopo acadêmico, forneceu o contexto do laboratório, revisou as sugestões e decidiu o que incluir. A assistência de IA apoiou a produção documental, mas não realizou nem validou os testes do laboratório.
+
 ## Conteúdo
 
 - [ETHICS.md](ETHICS.md) — declaração de uso ético e limites
