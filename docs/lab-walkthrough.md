@@ -1,41 +1,55 @@
 # Lab Walkthrough
 
-This section is intentionally written as a report template with screenshot placeholders. In a real lab, these spaces should be replaced by actual captures from the controlled environment and the local network used for the exercise.
+> Nota: Todas as credenciais e dados exibidos neste walkthrough são fictícios e foram gerados em ambiente de laboratório isolado.
+
+This section documents the lab at a high level. Only screenshots that do not expose credentials or provide an operational credential-capture walkthrough are included. From the 13 images reviewed, one suitable overview image was selected; the remaining source images are not copied into this repository.
 
 ## 1. Main menu of SEToolkit
 
-[📸 INSERIR PRINT AQUI: Menu principal do SEToolkit]
-*Main menu of SEToolkit after startup in the laboratory environment.*
+![SEToolKit menu overview](../screenshots/01-set-menu-overview.jpeg)
+*This cropped overview identifies SEToolkit and shows its top-level menu categories. It gives context for the lab without documenting module configuration or execution.*
 
 ## 2. Social-Engineering Attacks option
 
 [📸 INSERIR PRINT AQUI: Menu Social-Engineering Attacks]
 *View of the `Social-Engineering Attacks` section, highlighting the tooling used in the academic exercise.*
 
+*Source images showing detailed attack-vector and module menus were omitted to avoid publishing an operational walkthrough.*
+
 ## 3. Website Attack Vectors
 
 [📸 INSERIR PRINT AQUI: Website Attack Vectors]
 *Overview of the `Website Attack Vectors` menu relevant to credential harvesting and cloning workflows.*
+
+*The source images for this stage were not included; use only a sanitized, high-level image if this section is later completed.*
 
 ## 4. Credential Harvester / Site Cloner
 
 [📸 INSERIR PRINT AQUI: Credential Harvester e Site Cloner]
 *Module context for credential harvesting and the site-cloning option used in the lab.*
 
+*Screenshots showing detailed module selection or setup were omitted.*
+
 ## 5. Network configuration in the isolated lab
 
 [📸 INSERIR PRINT AQUI: Configuração de rede local isolada]
 *Local network details and configuration used to keep the exercise isolated in the controlled environment.*
+
+*The source images contain environment details and are not included. Do not publish host addresses or other lab identifiers unless they have been reviewed and intentionally sanitized.*
 
 ## 6. Cloned page in the lab
 
 [📸 INSERIR PRINT AQUI: Página demonstrativa no laboratório]
 *Example of a cloned or replicated site used in a controlled local environment as part of the lab demonstration.*
 
+*The source image of a look-alike sign-in page was omitted to avoid redistributing a phishing-style page image.*
+
 ## 7. Captured credentials in the terminal
 
 [📸 INSERIR PRINT AQUI: Saída sanitizada do terminal]
 *Terminal view associated with the lab capture process, illustrating the evidence recorded in the authorized environment.*
+
+*The source terminal screenshots exposed candidate usernames, passwords, and authentication parameters. They were not copied into this repository. Do not add them unless all sensitive values are irreversibly redacted.*
 
 ## 8. Closure and cleanup
 
@@ -52,6 +66,6 @@ C2 frameworks serve another purpose: they are generally used after an endpoint h
 
 ## Notes
 
-- This document is a placeholder-based technical template.
-- Replace every `[📸 INSERIR PRINT AQUI: ...]` marker only with lab-produced evidence from an authorized, isolated environment.
+- The source collection included repeated menu views, module/setup screens, a failed cloning attempt, a look-alike sign-in page, terminal capture output, and explanatory browser content. Only the non-sensitive main-menu overview is included.
+- Replace remaining `[📸 INSERIR PRINT AQUI: ...]` markers only with lab-produced evidence from an authorized, isolated environment, after checking for credentials, personal information, authentication/session parameters, and operational details.
 - Never include real credentials or personal identifiers in the repository.

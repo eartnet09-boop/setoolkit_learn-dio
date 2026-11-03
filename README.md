@@ -5,6 +5,8 @@
 >
 > See [ETHICS.md](ETHICS.md) for the full ethical use statement and legal boundaries.
 
+> **Lab data note:** The author states that any credentials and data shown in the lab walkthrough are fictitious and were generated in an isolated laboratory environment. Sensitive values and credential-capture evidence are intentionally not published in this repository.
+
 ## Overview
 
 This repository is a technical report for an academic cybersecurity exercise using the Social-Engineer Toolkit (SET) in an isolated, controlled lab. It records the learning objectives, documents the lab context, and discusses how social-engineering techniques fit into initial-access scenarios from a defensive and awareness perspective.
