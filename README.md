@@ -18,13 +18,25 @@ The report notes a practical limitation encountered during the exercise: an atte
 - [ETHICS.md](ETHICS.md) — ethical use statement and boundaries
 - [docs/setoolkit-overview.md](docs/setoolkit-overview.md) — overview of SEToolkit, modules, and relevant lab context
 - [docs/lab-setup.md](docs/lab-setup.md) — local network and isolated environment requirements
-- [docs/lab-walkthrough.md](docs/lab-walkthrough.md) — screenshot placeholders and walkthrough structure
+- [docs/lab-walkthrough.md](docs/lab-walkthrough.md) — defensive lab walkthrough and evidence-sanitization guidance
 - [docs/c2-frameworks-comparison.md](docs/c2-frameworks-comparison.md) — concise comparison with major C2 platforms
 - [screenshots/README.md](screenshots/README.md) — screenshot naming convention and placeholders
 
 ## SEToolkit in context
 
 The Social-Engineer Toolkit is designed to support social-engineering and phishing-oriented attack vectors in a controlled lab. It is relevant for demonstrating concepts around the initial access stage, credential harvesting, and site cloning in a local environment. The tool is not a full command-and-control framework; it operates at the front end of the attack chain, where the defender or student studies how an attacker would establish the first interaction and gather the first credentials or foothold.
+
+### Como funciona a execução do SEToolkit (Contexto Acadêmico)
+
+Esta descrição apresenta apenas a lógica geral da ferramenta para conscientização e defesa. Não é um tutorial operacional: não fornece comandos, configurações de rede, instruções para clonar serviços reais nem procedimentos para coletar credenciais.
+
+1. **Menu principal:** apresenta as categorias da ferramenta e permite compreender, em alto nível, quais tipos de demonstração são contemplados.
+2. **Vetores de engenharia social:** a categoria *Social-Engineering Attacks* agrupa exemplos usados para estudar como interações enganosas podem ser exploradas. Em uma atividade defensiva, o foco é reconhecer o risco e discutir formas de prevenção.
+3. **Vetores web:** *Website Attack Vectors* é uma categoria relacionada a demonstrações com páginas web. O estudo deve se limitar a sistemas fictícios e autorizados, sem direcionar serviços públicos ou pessoas reais.
+4. **Harvester e clonagem de site:** esses nomes representam conceitos de risco associados a formulários e páginas imitativas. Aqui são tratados somente para explicar o impacto potencial e os controles defensivos; o repositório não documenta sua configuração nem seu uso para capturar dados.
+5. **Observação do terminal:** em um laboratório isolado, a interface pode exibir eventos da demonstração. Registros devem ser tratados como evidência sensível, sanitizados antes de qualquer compartilhamento e usados para discutir detecção, resposta e conscientização — nunca para registrar ou divulgar credenciais.
+
+Qualquer exercício prático requer autorização explícita, escopo definido e isolamento do ambiente. Para os limites completos, consulte [ETHICS.md](ETHICS.md) e o [roteiro do laboratório](docs/lab-walkthrough.md).
 
 ## Comparison with C2 frameworks
 
