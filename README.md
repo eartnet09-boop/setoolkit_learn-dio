@@ -1,4 +1,4 @@
-# SEToolkit Phishing Lab
+# SEToolkit Academic Lab
 
 > [!IMPORTANT]
 > This repository documents a controlled cybersecurity lab exercise using the Social-Engineer Toolkit (SET) in an isolated, authorized environment. The content is for academic study only and must not be used against systems or people without explicit written authorization.
@@ -7,9 +7,9 @@
 
 ## Overview
 
-This project is a professional academic report on a laboratory exercise involving the Social-Engineer Toolkit (SET). The purpose is to explain the role of the tool in a red-team or awareness exercise, document the lab environment, and show how the tool sits within the early stages of a real-world attack chain.
+This repository is a technical report for an academic cybersecurity exercise using the Social-Engineer Toolkit (SET) in an isolated, controlled lab. It records the learning objectives, documents the lab context, and discusses how social-engineering techniques fit into initial-access scenarios from a defensive and awareness perspective.
 
-The workflow is intentionally presented at a high level and is restricted to documentation and report writing. The repository does not include ready-to-use phishing pages, payloads, or attack automation.
+The report notes a practical limitation encountered during the exercise: an attempt to reproduce a Facebook page did not work as expected. For the controlled demonstration, the exercise was adapted to use a Google page with a native SET template. This is a record of the student's lab experience, not a reproducible procedure. The repository contains documentation only; it does not include ready-to-use phishing pages, payloads, or attack automation.
 
 ## Contents
 
@@ -27,6 +27,18 @@ The Social-Engineer Toolkit is designed to support social-engineering and phishi
 ## Comparison with C2 frameworks
 
 SEToolkit and C2 frameworks are not equivalent. SET focuses on the early user-facing deception stage, whereas C2 frameworks such as Mythic, Sliver, Havoc, and Cobalt Strike are oriented toward post-compromise persistence, command execution, and long-running operational control. The comparison in this repository is conceptual and limited to a technical report, not operational guidance.
+
+## Modern Limitations and Adaptation
+
+The Facebook page-cloning attempt failed in this lab. Modern services use layered defenses and dynamic front ends; anti-automation measures, content security policies (CSP), and changing authentication flows can all affect whether a page can be reproduced by a basic cloning method. The available evidence from this exercise does not establish one specific control as the sole cause of the failure.
+
+To keep the academic exercise within its controlled scope, the demonstration was adapted to a Google page using a template provided by SEToolkit. This adaptation is documented as an observation from the lab, not as a recommendation to target either service. No real accounts or credentials belong in the repository; any screenshots must use fictitious lab data and be reviewed for sensitive information before inclusion.
+
+## Methodology and Use of AI
+
+GitHub Copilot was used as an AI copilot to help organize the repository, standardize the writing, and accelerate the drafting and editing of documentation. The student acted as the AI orchestrator: defining the academic scope, supplying the lab context, reviewing suggestions, and deciding what to include. This human oversight kept the material aligned with the exercise and its ethical boundaries.
+
+AI assistance supported the documentation process; it did not perform the lab exercise or validate its results. Technical claims and screenshots must be checked against the student's actual observations, and no generated text should be treated as evidence of testing.
 
 ## Scope and restrictions
 
