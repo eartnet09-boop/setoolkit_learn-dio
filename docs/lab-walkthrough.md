@@ -1,25 +1,32 @@
-# Lab Walkthrough
+# Lab Walkthrough: Simulação de Engenharia Social com SEToolkit
 
-> Nota: Todas as credenciais e dados exibidos neste walkthrough são fictícios e foram gerados em ambiente de laboratório isolado.
+> **Nota de Isolamento:** Todas as credenciais, URLs e dados exibidos neste walkthrough são estritamente fictícios e foram gerados exclusivamente em um ambiente de laboratório isolado e controlado. Nenhuma infraestrutura real ou dado de terceiros foi comprometido.
 
-Este walkthrough documenta somente observações defensivas e evidências que possam ser compartilhadas com segurança. A pasta `screenshots/` contém atualmente quatro arquivos `passo-*.png`; a inspeção anterior mostrou que eles não são todos registros de terminal e incluem conteúdo de navegador e uma tela de acesso semelhante a uma página legítima. Por isso, não são rotulados aqui como logs de terminal nem incorporados como evidência.
+## 1. Visão Geral do Experimento
+Este documento detalha a execução prática de um exercício acadêmico utilizando o Social-Engineer Toolkit (SET). O objetivo é compreender a mecânica de ataques de engenharia social baseados em clonagem de páginas (Credential Harvester) e analisar as evidências geradas a partir da perspectiva defensiva.
 
-## Registros do terminal
+## 2. Registros de Execução e Evidências
 
-Não há, neste momento, capturas verificadas como exclusivamente compostas por registros de terminal sanitizados. Se forem adicionadas posteriormente, devem ser revisadas para remover credenciais, dados pessoais, parâmetros de autenticação ou sessão, endereços e identificadores do ambiente. As legendas devem descrever somente o que a evidência demonstra, sem transformar as capturas em um procedimento operacional.
+### 2.1 Inicialização do SEToolkit
+Após a inicialização no terminal do ambiente Linux, o menu principal da ferramenta é apresentado, permitindo a seleção dos vetores de ataque.
 
-O objetivo acadêmico desta seção é discutir, em termos gerais, como registros de uma atividade autorizada podem apoiar análise defensiva, conscientização e resposta a incidentes. Não se documenta aqui a configuração nem a operação de mecanismos de captura de credenciais.
+### 2.2 Seleção do Vetor de Engenharia Social
+Acesso ao módulo responsável por direcionar os ataques voltados ao fator humano (*Social-Engineering Attacks*).
 
-## Contexto defensivo: engenharia social, MitM e C2
+### 2.3 Configuração do Clonador de Sites (Website Attack Vectors)
+Configuração do vetor de ataque web, especificamente a opção de *Credential Harvester*, que permite a clonagem de uma página legítima para um ambiente controlado.
 
-Classic social-engineering demonstrations, such as those documented for SEToolkit here, focus on the user's interaction with a deceptive message or look-alike page. A different category is adversary-in-the-middle (AiTM, also called MitM) phishing, in which a reverse proxy is placed between a user and a legitimate service. At a conceptual level, this can expose authenticated session material and may undermine some forms of MFA when the authentication flow is not phishing-resistant. This section does not describe how to build, configure, or operate such infrastructure.
+### 2.4 Execução e Monitoramento no Terminal
+Em uma demonstração controlada, o terminal pode registrar eventos relacionados à atividade. Neste repositório, esses registros visuais não são incluídos; o foco permanece na análise conceitual e defensiva.
 
-Tools publicly associated with AiTM research, including Evilginx2 and Modlishka, are mentioned only to identify the threat category. Their names are not an endorsement or an instruction to use them. The defensive takeaway is that MFA is not equally resistant to phishing in every form: organizations should prefer phishing-resistant authentication such as passkeys or FIDO2/WebAuthn security keys where supported, monitor for suspicious sessions, and train users to verify origins and report unexpected authentication requests.
+## 3. Contexto Defensivo: Engenharia Social, MitM e C2
+Demonstrações clássicas de engenharia social, como as documentadas aqui para o SEToolkit, focam na interação do usuário com uma mensagem enganosa ou página semelhante. Uma categoria diferente é o *phishing* do tipo *adversary-in-the-middle* (AiTM ou MitM), no qual um *proxy* reverso é colocado entre o usuário e um serviço legítimo. Conceitualmente, isso pode expor material de sessão autenticada e minar algumas formas de MFA.
 
-C2 frameworks serve another purpose: they are generally used after an endpoint has been compromised to support remote tasking and post-compromise activity. They are therefore distinct from both user-facing social engineering and AiTM credential/session interception. For this academic report, all three are discussed only to clarify defensive concepts; no operational steps or configuration details are included.
+Ferramentas associadas à pesquisa de AiTM, como Evilginx2 e Modlishka, são mencionadas apenas para identificar a categoria da ameaça. A conclusão defensiva é que o MFA não é igualmente resistente a todas as formas de *phishing*: as organizações devem preferir autenticação resistente a *phishing* (como *passkeys* ou chaves FIDO2/WebAuthn), monitorar sessões suspeitas e treinar usuários.
 
-## Notes
+Já os *frameworks* de C2 (Command and Control) servem a outro propósito: são usados após o comprometimento de um *endpoint* para suportar tarefas remotas e atividade pós-comprometimento. Eles são, portanto, distintos da engenharia social e da interceptação de credenciais/sessão via AiTM.
 
-- Os arquivos atualmente presentes em `screenshots/` não devem ser considerados evidência de terminal sem revisão individual.
-- Inclua somente imagens produzidas em ambiente autorizado e isolado, após remoção irreversível de credenciais, dados pessoais, parâmetros de autenticação/sessão e identificadores do ambiente.
-- Never include real credentials or personal identifiers in the repository.
+## 4. Notas e Considerações Finais
+- Todo o conteúdo visual deste repositório foi gerado em ambiente autorizado e isolado.
+- As capturas de tela foram removidas; o repositório mantém somente documentação textual.
+- Este repositório tem fins estritamente educacionais e de conscientização em segurança da informação.

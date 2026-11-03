@@ -3,9 +3,9 @@
 > [!IMPORTANT]
 > This repository documents a controlled cybersecurity lab exercise using the Social-Engineer Toolkit (SET) in an isolated, authorized environment. The content is for academic study only and must not be used against systems or people without explicit written authorization.
 >
+> Nota de Segurança: Este repositório adota uma política Text-Only. Todas as capturas de tela foram removidas para garantir a conformidade e evitar a distribuição de interfaces de captura, mantendo apenas a documentação teórica.
+>
 > See [ETHICS.md](ETHICS.md) for the full ethical use statement and legal boundaries.
-
-> **Lab data note:** The author states that any credentials and data shown in the lab walkthrough are fictitious and were generated in an isolated laboratory environment. Sensitive values and credential-capture evidence are intentionally not published in this repository.
 
 ## Overview
 
@@ -18,9 +18,9 @@ The report notes a practical limitation encountered during the exercise: an atte
 - [ETHICS.md](ETHICS.md) — ethical use statement and boundaries
 - [docs/setoolkit-overview.md](docs/setoolkit-overview.md) — overview of SEToolkit, modules, and relevant lab context
 - [docs/lab-setup.md](docs/lab-setup.md) — local network and isolated environment requirements
-- [docs/lab-walkthrough.md](docs/lab-walkthrough.md) — defensive lab walkthrough and evidence-sanitization guidance
+- [docs/lab-walkthrough.md](docs/lab-walkthrough.md) — text-only defensive lab walkthrough
 - [docs/c2-frameworks-comparison.md](docs/c2-frameworks-comparison.md) — concise comparison with major C2 platforms
-- [screenshots/README.md](screenshots/README.md) — screenshot naming convention and placeholders
+- [screenshots/README.md](screenshots/README.md) — notice that visual evidence has been removed
 
 ## SEToolkit in context
 
@@ -63,4 +63,4 @@ This repository is documentation only. It intentionally avoids:
 - executable attack payloads or malicious HTML templates
 - operational installation or post-exploitation instructions
 
-For all screenshots and examples, the student must replace the placeholders with evidence collected only from a controlled, authorized laboratory environment.
+This repository is text-only; it does not contain screenshots or visual evidence.
